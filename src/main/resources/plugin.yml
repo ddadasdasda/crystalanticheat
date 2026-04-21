@@ -1,0 +1,21 @@
+name: Anticheat
+version: 1.0.0
+main: com.antiCheat.ezguard.anticheat
+api-version: 1.21
+authors:
+  - AntiCheat Team
+description: Advanced anticheat for crystal PvP, sword PvP, hitbox, auto totem, and mace exploits
+commands:
+  anticheat:
+    description: Main anticheat command
+    usage: /anticheat <subcommand>
+    aliases: [ac, anticheat]
+  acwarn:
+    description: Warn a player about cheating
+    usage: /acwarn <player> <reason>
+  acban:
+    description: Ban a player for cheating
+    usage: /acban <player> <reason>
+  acinfo:
+    description: View player anticheat info
+    usage: /acinfo <player>

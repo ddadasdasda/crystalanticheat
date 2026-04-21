@@ -1,0 +1,73 @@
+# CrystalAntiCheat Configuration File
+# Version: 1.0.0
+
+anticheat:
+  enabled: true
+  
+  # Crystal PvP exploit detection
+  crystal-check:
+    enabled: true
+    # Detects:
+    # - Crystal spam placement
+    # - Crystal exploit damage avoidance
+    # - Artificial resistance
+  
+  # Sword PvP exploit detection
+  sword-pvp-check:
+    enabled: true
+    # Detects:
+    # - Inhuman click speed
+    # - Critical hit abuse
+    # - Reach exploits
+  
+  # Hitbox manipulation detection
+  hitbox-check:
+    enabled: true
+    # Detects:
+    # - Impossible hitbox hits (behind player)
+    # - Height difference exploits
+  
+  # Auto-totem usage detection
+  auto-totem-check:
+    enabled: true
+    # Detects:
+    # - Inhuman totem popping speed
+    # - Automated totem behavior
+  
+  # Mace exploit detection
+  mace-check:
+    enabled: true
+    # Detects:
+    # - Mace spam
+    # - Damage modification
+    # - Fall damage exploitation
+  
+  # Knockback exploit detection
+  knockback-check:
+    enabled: true
+    # Detects:
+    # - Modified knockback values
+    # - Impossible velocity changes
+  
+  # Movement exploit detection
+  movement-check:
+    enabled: true
+    # Detects:
+    # - Speed hacking
+    # - Flight hacking
+    # - Glitch walking
+  
+  # Violation thresholds
+  violation-threshold:
+    warn: 3        # Number of violations before warning
+    ban: 5         # Number of violations before banning
+  
+  # Punishment type: BAN, KICK, WARN, LOG
+  punishment-type: BAN
+
+# Permissions:
+# anticheat.admin - All admin commands
+# anticheat.warn - Use /acwarn command
+# anticheat.ban - Use /acban command
+# anticheat.notify - Receive anticheat notifications
+# anticheat.bypass - Bypass speed checks (use for admin)
